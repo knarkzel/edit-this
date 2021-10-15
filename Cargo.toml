@@ -3,7 +3,12 @@ name = "edit-this"
 version = "1.0.0"
 authors = ["Knarkzel <knarkzel@gmail.com>"]
 edition = "2021"
-license = "GPL v2"
+license = "GPL-2.0"
 readme = "README.md"
+description = "Edit file in default text editor"
+repository = "https://github.com/knarkzel/edit-this"
+documentation = "https://docs.rs/edit-this/"
+categories = ["text-processing", "text-editors"]
+keywords = ["editor", "edit", "editing", "cli"]
 
 [dependencies]
