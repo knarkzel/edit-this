@@ -8,7 +8,7 @@ use std::{
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
 
 /// Edits file in "EDITOR".
-pub fn edit_file<P: AsRef<Path>>(file: P) -> Result<()> {
+pub fn file<P: AsRef<Path>>(file: P) -> Result<()> {
     let editor = var("EDITOR")?;
     Command::new(&editor)
         .arg(file.as_ref())
