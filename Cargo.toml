@@ -1,0 +1,9 @@
+[package]
+name = "edit-this"
+version = "1.0.0"
+authors = ["Knarkzel <knarkzel@gmail.com>"]
+edition = "2021"
+license = "GPL v2"
+readme = "README.md"
+
+[dependencies]
